@@ -1,0 +1,107 @@
+{
+  "variables": [
+    "danceability",
+    "energy",
+    "loudness",
+    "acousticness",
+    "valence",
+    "tempo"
+  ],
+  "k_final": 4,
+  "evaluacion_k": [
+    {
+      "k": 2,
+      "inercia": 369666.57423207595,
+      "silhouette": 0.32734183410818
+    },
+    {
+      "k": 3,
+      "inercia": 303143.05393322493,
+      "silhouette": 0.22960292741561444
+    },
+    {
+      "k": 4,
+      "inercia": 266452.6980259268,
+      "silhouette": 0.2169745147667864
+    },
+    {
+      "k": 5,
+      "inercia": 240715.0442067999,
+      "silhouette": 0.20294386664156727
+    },
+    {
+      "k": 6,
+      "inercia": 225302.2416479375,
+      "silhouette": 0.18234738023001015
+    },
+    {
+      "k": 7,
+      "inercia": 210248.8590462718,
+      "silhouette": 0.1828292182713928
+    },
+    {
+      "k": 8,
+      "inercia": 197529.76990793433,
+      "silhouette": 0.18446982147534838
+    }
+  ],
+  "comparacion": {
+    "K=3": {
+      "silhouette": 0.22960292741561444,
+      "tamanos": [
+        21087,
+        29702,
+        38643
+      ]
+    },
+    "K=4": {
+      "silhouette": 0.2169745147667864,
+      "tamanos": [
+        22309,
+        32346,
+        7729,
+        27048
+      ]
+    }
+  },
+  "varianza_pca": [
+    0.4482503552112066,
+    0.22224486498722867
+  ],
+  "registros_original": 114000,
+  "registros_limpios": 89432,
+  "centroides": [
+    {
+      "danceability": 0.5663,
+      "energy": 0.4262,
+      "loudness": -10.3055,
+      "acousticness": 0.6452,
+      "valence": 0.425,
+      "tempo": 113.6684
+    },
+    {
+      "danceability": 0.6969,
+      "energy": 0.7381,
+      "loudness": -6.5424,
+      "acousticness": 0.1962,
+      "valence": 0.6981,
+      "tempo": 120.6822
+    },
+    {
+      "danceability": 0.3272,
+      "energy": 0.1728,
+      "loudness": -20.3359,
+      "acousticness": 0.8647,
+      "valence": 0.176,
+      "tempo": 103.4814
+    },
+    {
+      "danceability": 0.4691,
+      "energy": 0.8183,
+      "loudness": -5.8523,
+      "acousticness": 0.0691,
+      "valence": 0.3206,
+      "tempo": 136.6823
+    }
+  ]
+}
